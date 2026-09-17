@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     id: "acs",
     index: "01",
-    title: "Aircraft Classification System (ACS)",
+    title: "Aircraft Classification",
     category: "Edge AI / Real-Time Computer Vision",
     filterTags: ["AI", "COMPUTER VISION", "SYSTEMS"],
     tech: [
