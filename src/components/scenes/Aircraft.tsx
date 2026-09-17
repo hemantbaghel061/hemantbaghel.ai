@@ -6,15 +6,15 @@ import * as THREE from "three";
 
 export default function Aircraft({
   position = [0, 0, 0] as [number, number, number],
-  scale = 1,
+  scale = 1.5,
 }) {
   const group = useRef<THREE.Group>(null);
 
   useFrame((state) => {
     if (!group.current) return;
     const t = state.clock.getElapsedTime();
-    group.current.position.y = position[1] + Math.sin(t * 0.6) * 0.08;
-    group.current.rotation.z = Math.sin(t * 0.4) * 0.02;
+    group.current.position.y = position[1] + Math.sin(t * 0.3) * 0.08;
+    group.current.rotation.z = Math.sin(t * 0.2) * 0.02;
   });
 
   const wire = "#4e7cff";
