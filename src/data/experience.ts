@@ -17,7 +17,7 @@ export const experience: ExperienceEntry[] = [
     location: "On-site",
     points: [
       "Working on real-time computer vision and edge AI systems for defence technology applications",
-      "Contributing to an AI-based Aircraft Classification System (ACS) using a multi-stage pipeline — YOLO for detection, ConvNeXt for classification",
+      "Contributing to an AI-based Detection & Classification System using a multi-stage pipeline — YOLO for detection, ConvNeXt for classification",
       "Contributing to confidence-based validation and out-of-distribution (OOD) detection to improve prediction reliability",
       "Working with day and night datasets across varying illumination conditions",
       "Deploying and testing AI inference on NVIDIA Jetson edge devices, Linux/Ubuntu systems and workstations",
