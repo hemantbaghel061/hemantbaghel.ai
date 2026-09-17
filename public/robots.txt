@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hemantbaghel.netlify.app/sitemap.xml
